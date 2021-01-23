@@ -1,0 +1,209 @@
+/*=============================================
+    Template Name   : Glozzome Template
+    Template URL    : http://mytemplate.com
+    Author          : ME
+    Version         : 1.0
+    Tags            : HTML, CSS, BOOTSTRAP, JAVASCRIPT
+===============================================*/
+/*=========== TABLE OF CONTENTS ============
+
+    01. General Css
+    02. 
+    
+    
+======================================*/
+/*======================
+   01. General Css
+========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+
+}
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    
+}
+p {
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html, body {
+
+}
+/* ===========Main Css Start From Here========== */
+
+/* =====Start Navbar Css====== */
+.navbar{
+    background: #000;
+    
+}
+.navbar .nav-item{
+    padding-left: 10px !important;
+}
+.navbar .nav-link{
+    text-transform: uppercase;
+}
+/* =====End Navbar Css====== */
+
+/* ======Start Carousel ========== */
+.carousel-item{
+    height: 450px;
+}
+.carousel-img-1{
+    background: url('../img/image1.jpeg');
+}
+.carousel-img-2{
+    background: url('../img/image2.jpeg');
+}
+.carousel-img-3{
+    background: url('../img/image3.jpeg');
+}
+/* ======End Carousel ========== */
+
+/* =======start home icon css======= */
+#homeicon .fa{
+    font-size: 40px;
+    color: #0a071398;
+    
+}
+/* =======end home icon css======= */
+
+/* =======start getstarted css========== */
+#getstarted{
+    background: url('../img/bg1.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    position: relative;
+}
+.dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* =======end getstarted css========== */
+
+/* =======Start Home Video Css======= */
+#homevideo{
+    background: url('../img/people.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+}
+.dark-overl{
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#homevideo .fa{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* =======End Home Video Css======= */
+
+/* =====Start Photo Gallery Css====== */
+#photo-gallery img{
+    min-height: 250px;
+}
+/* =====End Photo Gallery Css====== */
+
+/* =====Start Copyright Css========== */
+#copyright{
+    background: #000;
+}
+/* =====End Copyright Css========== */
+
+/* ====Start About page header======= */
+#about-header{
+    background: url('../img/image1.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* ====End About page header======= */
+
+#testmonial .slick-prev::before,
+#testmonial .slick-next::before{
+    color: #000;
+}
+
+/* ======services page css========= */
+#services-header{
+    background: url('../img/image2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* ======Blog page css========= */
+#blog-header{
+    background: url('../img/image2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#blog-section img{
+    height: 250px;
+}
+
+/* ======Contact page css========= */
+#contact-header{
+    background: url('../img/image2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+/* ======Media Query========== */
+
+
+@media(max-width: 767px){
+    .carousel-item{
+        height: 300px;
+    }
+    .carousel h2{
+        font-size: 24px;
+    }
+    .carousel p{
+        font-size: 15px;
+    }
+    #getstarted{
+        min-height: 300px;
+    }
+
+}
